@@ -1,0 +1,5 @@
+*.jrl*
+*.log*
+*.txt,*
+*.dat
+*.dml
