@@ -85,16 +85,17 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 227 0 861"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 861"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -23 44 813 44 505")
-        (Scroll "-62 -1")
-        (Zoom "50")
+        (Scroll "210 858")
+        (Zoom "164")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\K400\KPRM\KPRM_02V1\KPRM_02V1.DSN")
       (Schematic "SCHEMATIC1")
       (Page "KPRM16")))
-  (ISPCBBASICLICENSE "false"))
+  (ISPCBBASICLICENSE "false")
+  (MPSSessionName "Shcheblykin"))
