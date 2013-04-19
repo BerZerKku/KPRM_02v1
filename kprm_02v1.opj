@@ -91,8 +91,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -4 -23 44 813 44 505")
-        (Scroll "210 858")
-        (Zoom "164")
+        (Scroll "11 268")
+        (Zoom "82")
         (Occurrence "/"))
       (Path "E:\ORCAD_SCH\K400\KPRM\KPRM_02V1\KPRM_02V1.DSN")
       (Schematic "SCHEMATIC1")
