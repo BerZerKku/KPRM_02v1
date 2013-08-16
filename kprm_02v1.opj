@@ -2,7 +2,9 @@
   (ProjectVersion "19981106")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File "d:\project\circuit\orcad\lib\symbols_gost.olb"
+        (Type "Schematic Library")))
     (File ".\kprm_02v1.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
@@ -58,7 +60,24 @@
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE")
-    (Netlist_TAB "0"))
+    (Netlist_TAB "0")
+    (Board_sim_option "VHDL_flow")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "0")
+    (ANNOTATE_Action "1")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "TRUE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80"))
   (Folder "Outputs"
     (File ".\kprm_02v1.drc"
       (Type "Report"))
@@ -72,30 +91,70 @@
       (Type "Report")
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
-  (PartMRUSelector)
+  (PartMRUSelector
+    (CON_2
+      (FullPartName "CON_2.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SAMPLE.OLB")
+      (DeviceIndex "0"))
+    (TITLE_5
+      (FullPartName "TITLE_5.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "0"))
+    (TITLE_4
+      (FullPartName "TITLE_4.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "0"))
+    (TITLE_3
+      (FullPartName "TITLE_3.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "0"))
+    (TITLE_1
+      (FullPartName "TITLE_1.Normal")
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\SYMBOLS_GOST.OLB")
+      (DeviceIndex "0"))
+    ("TitleBlock first page"
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\_SYMBOLS.OLB")
+      (DeviceIndex "0"))
+    (TitleBl_Page1_Side
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\_SYMBOLS.OLB")
+      (DeviceIndex "0"))
+    ("TitleBlock first page LIGHT"
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\_SYMBOLS.OLB")
+      (DeviceIndex "0"))
+    (TitleBlock2N
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\kprm_02v1.dsn")
-      (Path "Design Resources" ".\kprm_02v1.dsn" "SCHEMATIC1")
-      (Path "Design Resources" ".\kprm_02v1.dsn" "A - OUT_RELAY")
+      (Path "Design Resources"
+         "d:\project\circuit\orcad\kprm\02v1\kprm_02v1.dsn")
+      (Path "Design Resources"
+         "d:\project\circuit\orcad\kprm\02v1\kprm_02v1.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "d:\project\circuit\orcad\kprm\02v1\kprm_02v1.dsn" "A - OUT_RELAY")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "d:\project\circuit\orcad\lib\symbols_gost.olb")
       (Path "Outputs")
-      (Select "Design Resources" ".\kprm_02v1.dsn"))
+      (Select "Design Resources"
+         "d:\project\circuit\orcad\kprm\02v1\kprm_02v1.dsn" "SCHEMATIC1"
+         "KPRM16_01"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 861"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 903"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -23 44 813 44 505")
-        (Scroll "11 268")
-        (Zoom "82")
+        (Placement "44 2 3 -1 -1 -4 -23 88 1192 88 593")
+        (Scroll "-420 -10")
+        (Zoom "45")
         (Occurrence "/"))
-      (Path "E:\ORCAD_SCH\K400\KPRM\KPRM_02V1\KPRM_02V1.DSN")
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\KPRM\02V1\KPRM_02V1.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "KPRM16")))
+      (Page "KPRM16_01")))
   (ISPCBBASICLICENSE "false")
   (MPSSessionName "Shcheblykin"))
